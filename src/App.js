@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 const THEMES = {
 1: {
 color: "#60a5fa", bg: "#1e3a5f",
