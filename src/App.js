@@ -350,9 +350,9 @@ const rad = (angleDeg * Math.PI) / 180;
 return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
 }
 function MindMapSVG({ theme, color, onSelect, selected }) {
-const W = 900, H = 580, CX = 450, CY = 290;
+const W = 1000, H = 800, CX = 500, CY = 390;
 return (
-<svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", maxHeight: 580, display: "block" }}>
+<svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", maxHeight: 800, display: "block" }}>
 <defs>
 <filter id={`glow${theme.color.replace('#','')}`}>
 <feGaussianBlur stdDeviation="3" result="blur"/>
